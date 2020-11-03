@@ -15,7 +15,7 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-  let myName = promppt('Please enter your name.');
+  let myName = prompt('Please enter your name.');
   if(!myName || myName === null) {
     setUserName();
   } else {
